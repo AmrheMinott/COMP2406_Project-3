@@ -32,7 +32,7 @@ app.post("/sessions" , postSessions);
 function postSessions (req , res , next){
 
   // generates the unique sessionID
-  let sessionID = unique();
+  let sessionID = unique.v4();
 
   // creates the object that will represent the user in sessions file
   let id = {};

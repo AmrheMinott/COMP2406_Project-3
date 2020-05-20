@@ -1,0 +1,19 @@
+{
+  "name": "a5-basecode",
+  "version": "1.0.0",
+  "description": "This is a Quiz Generator that implements sessions so each user can be identified and distinguished on the server so their data is updated accordingly.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12",
+    "pug": "^2.0.4",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Amrhe S Minott",
+  "license": "ISC"
+}

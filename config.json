@@ -1,0 +1,7 @@
+{
+  "questionDir":"questions",
+  "sessionDir":"sessions",
+
+  "sessionFileType":".json",
+  "questionFileType":".txt"
+}

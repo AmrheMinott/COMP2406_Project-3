@@ -18,14 +18,25 @@ Additionally you are only given question when an ID//token is presented and you 
 
 Query Parameters name for url textbox
 
-category				->	is category of the question
+
+category				->	is category of the question [0,24]
+										questions?category=<insert category>
+
 limit						->	is number of questions
-difficulty			->	is difficult of question
+										questions?limit=<insert limit>
+
+difficulty			->	is difficult of question [0,3]
+										questions?difficulty=<insert difficulty>
+
 token						->	is the uuid of the session
+										questions?token=<insert token>
+
+questions?token=<insert token>&difficulty=<insert difficulty>&limit=<insert limit>&category=<insert category>
+
 
 
 In the event the user has not specified a limit the default limit will be 10
-If user has not specified category or difficulty then the behavior will be random ie = 0
+If user has not specified category or difficulty then the behaviour will be random ie = 0
 	or if the difficulty is over 3 then the difficulty will be a random number form [1 , 3]
 
 If the user goes over the range of values
