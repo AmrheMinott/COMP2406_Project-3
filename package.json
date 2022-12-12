@@ -4,7 +4,7 @@
   "description": "This is a Quiz Generator that implements sessions so each user can be identified and distinguished on the server so their data is updated accordingly.",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongoose": "^5.7.12",
     "pug": "^2.0.4",
     "uuid": "^8.0.0"
